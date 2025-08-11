@@ -111,18 +111,18 @@ The frontend renders the board inside #parentDomID
 ---
 
 📜 License  
-[MIT License](LICENSE)
+MIT License
 
 ---
 
 🙋‍♂️ Author  
-[Dhruvi](https://github.com/dhruvi-github)
+Dhruvi
 
 
 ---
 
 🌐 Demo  
-[Coming Soon](https://your-demo-link.com) — Will be hosted on GitHub Pages or Vercel
+Coming Soon — Will be hosted on GitHub Pages or Vercel
 
 ---
 
