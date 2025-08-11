@@ -8,7 +8,7 @@ This project supports multiple users drawing, annotating, and sharing a canvas i
 ## 📁 Project Structure
 ZegoScribo/
 ├── public/ # Static assets
-├── src/
+├── src/ # Application source code
 │ ├── App.jsx # Main app logic
 │ ├── Tools.jsx # Tool panel UI
 │ ├── App.css # Styling
@@ -116,7 +116,7 @@ MIT License
 ---
 
 🙋‍♂️ Author
-Dhruvi — GitHub Profile
+Dhruvi
 
 ---
 
