@@ -1,53 +1,50 @@
 # 🖊️ Zego Scribo Whiteboard
 
 A collaborative real-time whiteboard built using **React**, **Vite**, and **ZEGOCLOUD SDK**.  
-This application allows multiple users to draw, annotate, and share a canvas in real time with a built-in tool panel.
+This project supports multiple users drawing, annotating, and sharing a canvas in real time with a built-in tool panel.
 
 ---
 
 ## 📁 Project Structure
-```
 ZegoScribo/
-├── public/                # Static assets
-├── src/                   # Application source code
-│   ├── App.jsx            # Main app logic
-│   ├── Tools.jsx          # Tool panel UI
-│   ├── App.css            # Styling
-│   ├── main.jsx           # App entry point
-├── .env                   # Private credentials (ignored in Git)
-├── .env.example           # Safe example for GitHub
+├── public/ # Static assets
+├── src/ # Application source code
+│ ├── App.jsx # Main app logic
+│ ├── Tools.jsx # Tool panel UI
+│ ├── App.css # Styling
+│ ├── main.jsx # App entry point
+├── .env # Private credentials (ignored in Git)
+├── .env.example # Safe example for GitHub
 ├── .gitignore
 ├── vite.config.js
 ├── package.json
 └── README.md
-```
 
 ---
 
 ## 🚀 Features
 - 🎨 Real-time collaborative whiteboard
-- 🛠 Tool panel for drawing, erasing, and annotations
+- 🛠 Tool panel for drawing and annotations
 - 🔑 Secure `.env` environment variable handling
-- ⚡ Fast development using **Vite**
+- ⚡ Fast development with **Vite**
 - 📡 Powered by **ZEGOCLOUD's Whiteboard SDK**
 
 ---
 
 ## 🛠️ Tech Stack
 - **React** — UI framework
-- **Vite** — Build tool
-- **ZEGOCLOUD SDK** — Real-time whiteboard API
+- **Vite** — Frontend build tool
+- **ZEGOCLOUD SDK** — Real-time communication & whiteboard API
 - **JavaScript (ES6+)**
 - **Tailwind CSS** (optional, for styling)
 
 ---
 
 ## 🖥️ Prerequisites
-Before you begin, make sure you have:
-- Node.js 18+
-- NPM or Yarn
-- ZEGOCLOUD account with **App ID**, **Token**, and **Server URL**
-- Git installed
+- Node.js 18+ ✅
+- NPM or Yarn ✅
+- ZEGOCLOUD account with App ID, Token, and Server URL ✅
+- Git installed ✅
 
 ---
 
@@ -55,71 +52,78 @@ Before you begin, make sure you have:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/dhruvi/ZegoScribo.git
+git clone https://github.com/your-username/ZegoScribo.git
 cd ZegoScribo
-```
 
-### 2️⃣ Install Dependencies
-```bash
+---
+
+2️⃣ Install Dependencies
 npm install
-```
 
-### 3️⃣ Configure Environment Variables
-Create a `.env` file in the root folder:
-```env
+3️⃣ Configure Environment Variables
+Create a .env file in the root folder:
+env
 VITE_APPID=1498849343
 VITE_USERID=your_user_id
 VITE_ROOMID=your_room_id
 VITE_USERNAME=your_username
 VITE_TOKEN=your_real_token
 VITE_SERVER=your_server_url
-```
 
-📦 **`.env.example`** (safe to commit):
-```env
+📦 .env.example for GitHub
+You should create a .env.example file to share the variable structure without sensitive values:
 VITE_APPID=your_app_id
 VITE_USERID=your_user_id
 VITE_ROOMID=your_room_id
 VITE_USERNAME=your_username
 VITE_TOKEN=your_token_here
 VITE_SERVER=your_server_url
-```
 
-### ▶️ Running the Project
-```bash
+▶️ Running the Project
 npm run dev
-```
 
 ---
 
-📜 **License**  
+✅ Usage Guide
+Join a Whiteboard Room
+Set your Room ID in .env
+
+Open the app in your browser
+
+Multiple users joining the same room will see each other's drawings live
+
+Select Tools
+Use the Tool Panel to switch between pen, eraser, shapes, etc.
+
+All changes are synced in real-time
+
+---
+
+🔍 How the Whiteboard Works
+ZegoExpressEngine handles the RTC connection
+
+ZegoSuperBoardManager manages the whiteboard
+
+Environment variables load your credentials securely
+
+The frontend renders the board inside #parentDomID
+
+---
+
+📜 License  
 [MIT License](LICENSE)
 
-🙋‍♂️ **Author**  
-[Dhruvi](https://github.com/dhruvi)
+---
 
-🌐 **Demo**  
-[Coming Soon](https://dhruvi.github.io/ZegoScribo) — Will be hosted on GitHub Pages or Vercel
+🙋‍♂️ Author  
+[Dhruvi](https://github.com/dhruvi-github)
+
 
 ---
 
-## ✅ Usage Guide
-
-### 1. Join a Whiteboard Room
-- Set your **Room ID** in `.env`
-- Open the app in your browser
-- Multiple users joining the same room will see each other's drawings live
-
-### 2. Select Tools
-- Use the Tool Panel to switch between **pen, eraser, shapes**, etc.
-- All changes are synced in real time
+🌐 Demo  
+[Coming Soon](https://your-demo-link.com) — Will be hosted on GitHub Pages or Vercel
 
 ---
 
-## 🔍 How the Whiteboard Works
-- **ZegoExpressEngine** handles the RTC connection
-- **ZegoSuperBoardManager** manages the whiteboard
-- Environment variables securely load credentials
-- The whiteboard is rendered inside `#parentDomID`
-
----
+Update README.md with full project setup and documentation
