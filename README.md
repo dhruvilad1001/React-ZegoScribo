@@ -116,7 +116,7 @@ MIT License
 ---
 
 🙋‍♂️ Author  
-Dhruvi
+Dhruvi - [GitHub](https://github.com/dhruvilad1001)
 
 
 ---
