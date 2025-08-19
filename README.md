@@ -126,4 +126,4 @@ Coming Soon — Will be hosted on GitHub Pages or Vercel
 
 ---
 
-Update README.md with full project setup and documentation
+
