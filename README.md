@@ -111,7 +111,7 @@ The frontend renders the board inside #parentDomID
 ---
 
 📜 License  
-MIT License
+MIT 
 
 ---
 
