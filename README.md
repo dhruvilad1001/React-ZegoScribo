@@ -6,6 +6,7 @@ This project supports multiple users drawing, annotating, and sharing a canvas i
 ---
 
 ## 📁 Project Structure
+```bash
 ZegoScribo/
 ├── public/ # Static assets
 ├── src/ # Application source code
@@ -19,7 +20,7 @@ ZegoScribo/
 ├── vite.config.js
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## 🚀 Features
